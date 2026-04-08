@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: '<your-repo-url>'
+                git branch: 'main', url: 'https://github.com/heenureet93036/labsheet1-2025sl93036'
             }
         }
 
